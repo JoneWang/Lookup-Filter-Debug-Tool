@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1FF8DC2333637300EA5924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF8DB2333637300EA5924 /* AppDelegate.swift */; };
+		EC1FF8DE2333637300EA5924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF8DD2333637300EA5924 /* ViewController.swift */; };
+		EC1FF8E02333637500EA5924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1FF8DF2333637500EA5924 /* Assets.xcassets */; };
+		EC1FF8E32333637600EA5924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1FF8E12333637600EA5924 /* Main.storyboard */; };
+		EC1FF8EC23336FF800EA5924 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF8EB23336FF800EA5924 /* DropView.swift */; };
+		EC1FFA84233379BC00EA5924 /* NSImageToFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FFA83233379BC00EA5924 /* NSImageToFileExtension.swift */; };
+		EC1FFA8B23338BE200EA5924 /* GPUImage in Frameworks */ = {isa = PBXBuildFile; productRef = EC1FFA8A23338BE200EA5924 /* GPUImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC1FF8D82333637300EA5924 /* LookupFilterDebugTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookupFilterDebugTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1FF8DB2333637300EA5924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1FF8DD2333637300EA5924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1FF8DF2333637500EA5924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1FF8E22333637600EA5924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1FF8E42333637600EA5924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1FF8E52333637600EA5924 /* LookupFilterDebugTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LookupFilterDebugTool.entitlements; sourceTree = "<group>"; };
+		EC1FF8EB23336FF800EA5924 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		EC1FFA83233379BC00EA5924 /* NSImageToFileExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageToFileExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1FF8D52333637300EA5924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FFA8B23338BE200EA5924 /* GPUImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1FF8CF2333637300EA5924 = {
+			isa = PBXGroup;
+			children = (
+				EC1FF8DA2333637300EA5924 /* LookupFilterDebugTool */,
+				EC1FF8D92333637300EA5924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1FF8D92333637300EA5924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FF8D82333637300EA5924 /* LookupFilterDebugTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1FF8DA2333637300EA5924 /* LookupFilterDebugTool */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4A50E233391F6000CBE05 /* Utils */,
+				EC1FF8DB2333637300EA5924 /* AppDelegate.swift */,
+				EC1FF8DD2333637300EA5924 /* ViewController.swift */,
+				EC1FF8DF2333637500EA5924 /* Assets.xcassets */,
+				EC1FF8E12333637600EA5924 /* Main.storyboard */,
+				EC1FF8E52333637600EA5924 /* LookupFilterDebugTool.entitlements */,
+				EC1FF8E42333637600EA5924 /* Info.plist */,
+			);
+			path = LookupFilterDebugTool;
+			sourceTree = "<group>";
+		};
+		ECC4A50E233391F6000CBE05 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FF8EB23336FF800EA5924 /* DropView.swift */,
+				EC1FFA83233379BC00EA5924 /* NSImageToFileExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1FF8D72333637300EA5924 /* LookupFilterDebugTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1FF8E82333637600EA5924 /* Build configuration list for PBXNativeTarget "LookupFilterDebugTool" */;
+			buildPhases = (
+				EC1FF8D42333637300EA5924 /* Sources */,
+				EC1FF8D52333637300EA5924 /* Frameworks */,
+				EC1FF8D62333637300EA5924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LookupFilterDebugTool;
+			packageProductDependencies = (
+				EC1FFA8A23338BE200EA5924 /* GPUImage */,
+			);
+			productName = JoneCameraDemo;
+			productReference = EC1FF8D82333637300EA5924 /* LookupFilterDebugTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1FF8D02333637300EA5924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = JoneCamera;
+				TargetAttributes = {
+					EC1FF8D72333637300EA5924 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EC1FF8D32333637300EA5924 /* Build configuration list for PBXProject "LookupFilterDebugTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1FF8CF2333637300EA5924;
+			packageReferences = (
+				EC1FFA8923338BE200EA5924 /* XCRemoteSwiftPackageReference "GPUImage2" */,
+			);
+			productRefGroup = EC1FF8D92333637300EA5924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1FF8D72333637300EA5924 /* LookupFilterDebugTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1FF8D62333637300EA5924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FF8E02333637500EA5924 /* Assets.xcassets in Resources */,
+				EC1FF8E32333637600EA5924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1FF8D42333637300EA5924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FFA84233379BC00EA5924 /* NSImageToFileExtension.swift in Sources */,
+				EC1FF8DE2333637300EA5924 /* ViewController.swift in Sources */,
+				EC1FF8DC2333637300EA5924 /* AppDelegate.swift in Sources */,
+				EC1FF8EC23336FF800EA5924 /* DropView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC1FF8E12333637600EA5924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1FF8E22333637600EA5924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1FF8E62333637600EA5924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1FF8E72333637600EA5924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EC1FF8E92333637600EA5924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LookupFilterDebugTool/LookupFilterDebugTool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SRT8ZNLRFZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LookupFilterDebugTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abteam.LookupFilterDebugTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC1FF8EA2333637600EA5924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LookupFilterDebugTool/LookupFilterDebugTool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SRT8ZNLRFZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LookupFilterDebugTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abteam.LookupFilterDebugTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1FF8D32333637300EA5924 /* Build configuration list for PBXProject "LookupFilterDebugTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FF8E62333637600EA5924 /* Debug */,
+				EC1FF8E72333637600EA5924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1FF8E82333637600EA5924 /* Build configuration list for PBXNativeTarget "LookupFilterDebugTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FF8E92333637600EA5924 /* Debug */,
+				EC1FF8EA2333637600EA5924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC1FFA8923338BE200EA5924 /* XCRemoteSwiftPackageReference "GPUImage2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BradLarson/GPUImage2.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC1FFA8A23338BE200EA5924 /* GPUImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC1FFA8923338BE200EA5924 /* XCRemoteSwiftPackageReference "GPUImage2" */;
+			productName = GPUImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC1FF8D02333637300EA5924 /* Project object */;
+}
