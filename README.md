@@ -1,5 +1,5 @@
 # LookupFilterDebugTool
-Easy of use develop tool for camera filter. The exclusively for designer.
+Easy of use develop tool for camera filter. Exclusively for designer.
 
 Base on LookupFilter in [GPUImage2](https://github.com/BradLarson/GPUImage2 "GPUImage2")(Used GPUImage3 in our iOS app). LookupFilter used lookup tables to accelerate color transformations. 
 
