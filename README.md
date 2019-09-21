@@ -5,10 +5,10 @@ Base on LookupFilter in [GPUImage2](https://github.com/BradLarson/GPUImage2 "GPU
 
 # Lookup Table
 
-|                               | Lookup Table                                                 | Picture                                                      |
-| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Originnal                     | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/lookup.png) | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/doc/cat.png) |
-| Filter Table (hight exposure, edited with photoshop) | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/doc/lookup_exposure.png) | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/doc/cat_exposure.png?raw=true)<br /> (Generate with LookupFilterDebugTool) |
+|           | Lookup Table                                                 | Picture                                                      |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Originnal | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/lookup.png) | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/doc/cat.png) |
+| Filtered  | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/doc/lookup_exposure.png)<br />(Hight exposure, edited with photoshop) | ![Original Lookup Table](https://github.com/JoneWang/LookupFilterDebugTool/blob/master/doc/cat_exposure.png?raw=true)<br /> (Generate with LookupFilterDebugTool) |
 
 # Screenshot
 
