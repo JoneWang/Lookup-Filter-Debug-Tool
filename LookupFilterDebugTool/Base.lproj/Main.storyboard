@@ -123,7 +123,7 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="NrD-eZ-f1h" secondAttribute="height" id="9AR-y8-Fzx"/>
                                                             </constraints>
-                                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="I6h-0K-tPY"/>
+                                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lookup" id="I6h-0K-tPY"/>
                                                         </imageView>
                                                     </subviews>
                                                     <constraints>
@@ -214,4 +214,7 @@
             <point key="canvasLocation" x="-1" y="1184"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lookup" width="491.51998901367188" height="491.51998901367188"/>
+    </resources>
 </document>
